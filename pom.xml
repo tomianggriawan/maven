@@ -17,7 +17,6 @@
         <project.reporting.outputEndcoding>${encoding}</project.reporting.outputEndcoding>
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <archetype.encoding>${encoding}</archetype.encoding>
-        <help></help>
     </properties>
 
     <scm>
