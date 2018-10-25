@@ -50,8 +50,6 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.0.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.34" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.34" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.34" />
           <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.13.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
@@ -62,6 +60,11 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.47" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.34" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.34" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.34" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.34" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.12.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.10.RELEASE" />
         </element>

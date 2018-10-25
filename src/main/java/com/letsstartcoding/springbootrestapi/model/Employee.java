@@ -1,5 +1,6 @@
 package com.letsstartcoding.springbootrestapi.model;
 
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -26,6 +27,8 @@ public class Employee {
     @NotBlank
     private String expertise;
     @NotBlank
+    @Temporal(TemporalType.TIMESTAMP)
+    @LastModifiedDate
     private Date createdAt;
 
     public long getId() {
@@ -36,35 +39,35 @@ public class Employee {
         this.id = id;
     }
 
-    public @NotBlank String getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(@NotBlank String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public @NotBlank String getDesignation() {
+    public String getDesignation() {
         return designation;
     }
 
-    public void setDesignation(@NotBlank String designation) {
+    public void setDesignation(String designation) {
         this.designation = designation;
     }
 
-    public @NotBlank String getExpertise() {
+    public String getExpertise() {
         return expertise;
     }
 
-    public void setExpertise(@NotBlank String expertise) {
+    public void setExpertise(String expertise) {
         this.expertise = expertise;
     }
 
-    public @NotBlank Date getCreatedAt() {
+    public Date getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(@NotBlank Date createdAt) {
+    public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }
 }

@@ -1,1 +1,4 @@
 com\letsstartcoding\springbootrestapi\model\Employee.class
+com\letsstartcoding\springbootrestapi\controller\EmployeeController.class
+com\letsstartcoding\springbootrestapi\dao\EmployeeDao.class
+com\letsstartcoding\springbootrestapi\repository\EmployeeRepo.class
