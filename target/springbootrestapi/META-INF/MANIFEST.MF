@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: springbootrestapi Maven WebApp
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: User
+Implementation-Vendor-Id: com.letsstartcoding
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_181
+Main-Class: ${start-class}
+
